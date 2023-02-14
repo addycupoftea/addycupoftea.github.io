@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Haukai Restaurant | Reservations</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/styles/default.css">
+  
+</head>
+<body>
+
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>The Haukai Restaruant</h1>  
+      <!-- Replace with restaurant logo when provided by owners-->        
+    </div>
+  </div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid text-center">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="hours.html">Hours</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <!-- staff roster page-->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/private/staff.html"><span class="glyphicon glyphicon-log-in"></span> Login | Staff Only</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2">
+            
+    </div>
+    <div class="col-sm-8"> 
+           
+      <h1>Make a Reservation</h1>
+      <br>
+      
+      <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="name">Name:</label>
+          <div class="col-sm-5">
+            <input type="name" class="form-control" id="name" placeholder="Enter Name"required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="mobile">Mobile:</label>
+          <div class="col-sm-5">
+            <input type="mobile" class="form-control" id="mobile" placeholder="Enter Mobile"required>
+          </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-5">
+              <input type="email" class="form-control" id="email" placeholder="Enter Email"required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="date">Date:</label>
+            <div class="col-sm-10">
+                <input type="date" id="date" name="date" required>
+                <small>Restaurant days: Wednesday- Sunday. Closed on public holidays</small>
+            </div>
+          </div>
+
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="time">Time:</label>
+          <div class="col-sm-10">
+              <input type="time" id="time"required>
+              <small>Restaurant hours are from 5pm - late</small>
+          </div>
+        
+        
+        </div> 
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+        </div>
+      </form>
+        
+      <hr>
+    </div>
+    <div class="col-sm-2">
+      
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>The Haukai Restaruant <br>
+  <br>
+  Opening Hours:<br>
+  Wednesday - Sunday | 5pm - late <br>
+
+  </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+/*sets font styles for heading/body */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 20px;
+  padding: 70px;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: rgba(0, 0, 0, 0.8);
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: underline;
+    -webkit-font-smoothing: antialiased;
+  }
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-style:none;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: underline;
+    -webkit-font-smoothing: antialiased;
+  }
+
+dd {
+    font-style:italic ;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color:rgb(0, 51, 92);
+    ;
+  }
+  
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+  
+  /* Set gray background color and 100% height */
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+    
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color:rgb(0, 51, 92);
+    color: white;
+    padding: 15px;
+  }
+
+   /* Set black background color, white text and some padding */
+  .jumbotron {
+    background-color:rgb(0, 51, 92);
+    color: white;
+    padding: 15px;
+  }
+    
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+
+  div.form
+  {
+      display: block;
+      text-align: center;
+  }
+
+  form
+  {
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+  }
+
+
+
+
+
